@@ -13,13 +13,14 @@ main(){
     float mensalidade;
 
     //segundo passo - entrada de dados
+
     printf("Nome: \n");
-    fgets(nome,50 stdin);
+    fgets(nome, 50, stdin);
 
     printf("Idade: \n");
     scanf("%d", &idade);
-    fflush(stdin)
-
+    fflush(stdin);
+   
     printf("Matricula: \n");
     fgets(matricula, 15, stdin);
 
